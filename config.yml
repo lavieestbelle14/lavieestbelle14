@@ -34,15 +34,18 @@ galaxy_arms:
       - "TypeScript"
       - "JavaScript"
       - "React"
-      - "HTML"
-      - "CSS"
+
+  - name: "Backend Basics"
+    color: "synapse_cyan"
+    items:
+      - "Node.js"
+      - "PostgreSQL"
 
   - name: "Programming Languages"
     color: "axon_amber"
     items:
       - "Java"
       - "C#"
-
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
 theme:
