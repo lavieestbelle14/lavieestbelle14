@@ -10,24 +10,19 @@
 #   python -m generator.main --demo
 
 # Your GitHub username (required)
-username: galaxy-dev
+username: lavieestbelle14
 
 # Profile information displayed in the galaxy header
 profile:
-  name: "Nyx Orion"
-  tagline: "Full Stack Developer & Open Source Explorer"
-  company: "Stellar Labs"
-  location: "San Francisco, CA"
-  bio: |
-    Building tools that make developers' lives easier.
-    Passionate about distributed systems, developer experience, and the open-source ecosystem.
+  name: "Ma. izabelle"
+  tagline: "Frontend Developer"
+  location: "Manila, PH"
   philosophy: '"The best code is the code that empowers others."'
 
 # Social links displayed at the bottom of the profile
 social:
-  email: "nyx@stellarlabs.dev"
-  linkedin: "nyxorion"
-  website: "https://nyxorion.dev"
+  email: "oja.izabelle@gmail.com"
+  linkedin: "izabelleoja"
 
 # Galaxy arms represent your core focus areas
 # Each arm spirals out from the center with its own color and tech items
@@ -37,20 +32,15 @@ galaxy_arms:
     color: "dendrite_violet"
     items:
       - "TypeScript"
+      - " JavaScript"
       - "React"
+      - "HTML"
       - "CSS"
-  - name: "Backend"
-    color: "synapse_cyan"
-    items:
-      - "Python"
-      - "Node.js"
-      - "PostgreSQL"
-  - name: "DevOps"
+  - name: "Programming Languages"
     color: "axon_amber"
     items:
-      - "Docker"
-      - "GitHub Actions"
-      - "AWS"
+      - "Java"
+      - "C#"
 
 # Featured projects shown as constellation stars
 # Each project needs:
@@ -58,12 +48,15 @@ galaxy_arms:
 #   arm: 0-2                  — Which galaxy arm to associate with (index)
 #   description: "..."        — Short description shown on the card
 projects:
-  - repo: "galaxy-dev/nebula-ui"
+  - repo: "lavieestbelle14/eRehistroPH"
     arm: 0
-    description: "A component library with cosmic design tokens and dark-first theming."
-  - repo: "galaxy-dev/stargate-api"
+    description: "A web-based platform designed to modernize the Philippine voter registration process."
+  - repo: "JpCurada/iskonnect"
     arm: 1
-    description: "High-performance API gateway with built-in observability and caching."
+    description: "A desktop application made for PUP students to help each other excel in their studies."
+  - repo: "cjreandino/Bus-In-Na"
+    arm: 2
+    description: " A mobile-first inter-provincial bus booking application designed to modernize the traditional bus ticketing system in the Philippines"
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
@@ -94,4 +87,4 @@ languages:
     - "CSS"
     - "Shell"
     - "Makefile"
-  max_display: 8               # Maximum number of languages to show
+  max_display: 10               # Maximum number of languages to show
