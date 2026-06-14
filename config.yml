@@ -43,19 +43,6 @@ galaxy_arms:
       - "Java"
       - "C#"
 
-projects:
-  - repo: "lavieestbelle14/eRehistroPH"
-    arm: 0
-    description: "A web-based platform designed to modernize voter registration."
-
-  - repo: "JpCurada/iskonnect"
-    arm: 1
-    description: "A desktop application for PUP students."
-
-  - repo: "cjreandino/Bus-In-Na"
-    arm: 1
-    description: "A mobile-first bus booking application."
-
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
 theme:
@@ -76,11 +63,4 @@ stats:
     - "stars"
     - "prs"
     - "issues"
-    - "repos"
-
-# Language display settings
-languages:
-  exclude:                     # Languages to hide from the telemetry chart
-    - "Shell"
-    - "Makefile"
-  max_display: 10               # Maximum number of languages to show
+    - "repos"            
