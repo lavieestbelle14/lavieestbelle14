@@ -32,31 +32,29 @@ galaxy_arms:
     color: "dendrite_violet"
     items:
       - "TypeScript"
-      - " JavaScript"
+      - "JavaScript"
       - "React"
       - "HTML"
       - "CSS"
+
   - name: "Programming Languages"
     color: "axon_amber"
     items:
       - "Java"
       - "C#"
 
-# Featured projects shown as constellation stars
-# Each project needs:
-#   repo: "owner/repo-name"   — GitHub repository path
-#   arm: 0-2                  — Which galaxy arm to associate with (index)
-#   description: "..."        — Short description shown on the card
 projects:
   - repo: "lavieestbelle14/eRehistroPH"
     arm: 0
-    description: "A web-based platform designed to modernize the Philippine voter registration process."
+    description: "A web-based platform designed to modernize voter registration."
+
   - repo: "JpCurada/iskonnect"
     arm: 1
-    description: "A desktop application made for PUP students to help each other excel in their studies."
+    description: "A desktop application for PUP students."
+
   - repo: "cjreandino/Bus-In-Na"
-    arm: 2
-    description: " A mobile-first inter-provincial bus booking application designed to modernize the traditional bus ticketing system in the Philippines"
+    arm: 1
+    description: "A mobile-first bus booking application."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
